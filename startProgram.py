@@ -2,7 +2,8 @@
     Starting point for running the program.
 """
 
-
+from sys import path
+path.append(".")
 from multiprocessing import Process
 from MainWindow import start_main_win
 from Utilities.IO.IOHelper import create_config_file
